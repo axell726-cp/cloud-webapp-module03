@@ -82,6 +82,6 @@ La configuración workers_dev mantiene la app accesible en workers.dev. No se el
 - Prueba de UI pública desde Edge: creación con formulario, completar, filtro visual, estadísticas y eliminación; 5 checks aprobados y viewport móvil 390 px sin desbordamiento horizontal; evidencia en evidence/public-ui-smoke.txt.
 - La primera ejecución del cliente Node del entorno tuvo un fallo de handshake TLS; la misma URL respondió desde Edge y pasó las pruebas públicas. El fallo inicial se conserva en evidence/public-smoke-node-tls-error.txt para distinguir ambos clientes.
 - Logs de solicitudes reales del Worker, anonimizados para retirar IP, ubicación y cabeceras: evidence/worker-tail.txt.
-- Capturas reales de la versión pública: evidence/taskflow-public.png y evidence/taskflow-mobile.png.
+- Capturas reales de la versión pública: evidence/taskflow-public.png y evidence/taskflow-mobile.png. DNS público: evidence/public-dns.txt.
 - El endpoint de salud responde con estado OK y base de datos conectada. Wrangler confirmó la versión desplegada en evidence/deploy.txt.
 

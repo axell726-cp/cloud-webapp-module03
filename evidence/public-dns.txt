@@ -1,0 +1,10 @@
+Public DNS resolution evidence
+Captured: 2026-11-10 08:03:44 UTC
+Host: taskflow-module03.cloud-webapp-module03.workers.dev
+Observed DNS records:
+taskflow-module03.cloud-webapp-module03.workers.dev A 104.21.82.131
+taskflow-module03.cloud-webapp-module03.workers.dev A 172.67.202.124
+taskflow-module03.cloud-webapp-module03.workers.dev AAAA 2606:4700:3033::6815:5283
+taskflow-module03.cloud-webapp-module03.workers.dev AAAA 2606:4700:3037::ac43:ca7c
+
+The HTTPS page and API were opened from Edge and returned HTTP 200; see public-smoke-browser.txt and worker-tail.txt.
