@@ -1,0 +1,32 @@
+
+ ⛅️ wrangler 4.159.0
+────────────────────
+▲ [WARNING] You need to register a workers.dev subdomain before publishing to workers.dev
+
+
+Success! It may take a few minutes for DNS records to update.
+Visit https://dash.cloudflare.com/7613716086589b989d6c4b5e859b32a7/workers/subdomain to edit your workers.dev subdomain
+🌀 Building list of assets...
+✨ Read 4 files from the assets directory C:\Users\matia\Documents\Projects\INTERSHIP\Módulo3\cloud-webapp-module03\public
+🌀 Starting asset upload...
+🌀 Found 4 new or modified static assets to upload. Proceeding with upload...
++ /favicon.svg
++ /styles.css
++ /index.html
++ /app.js
+Uploaded 1 of 4 assets
+Uploaded 3 of 4 assets
+Uploaded 4 of 4 assets
+✨ Success! Uploaded 4 files (0.97 sec)
+
+Total Upload: 7.70 KiB / gzip: 2.65 KiB
+Worker Startup Time: 1 ms
+Your Worker has access to the following bindings:
+Binding                             Resource         
+env.DB (taskflow-module03)          D1 Database      
+env.ASSETS                          Assets           
+
+Uploaded taskflow-module03 (4.22 sec)
+Deployed taskflow-module03 triggers (0.75 sec)
+  https://taskflow-module03.cloud-webapp-module03.workers.dev
+Current Version ID: c3de59c5-104e-436d-bd1f-2a9321d374e8

@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env*
+!.env.example
+.DS_Store
+evidence/*.png
+!evidence/taskflow-public.png
+!evidence/taskflow-mobile.png
+!evidence/README.md
+

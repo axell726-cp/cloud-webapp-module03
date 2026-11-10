@@ -1,0 +1,12 @@
+
+> cloud-webapp-module03@1.0.0 db:migrate:local
+> wrangler d1 migrations apply taskflow-module03 --local
+
+
+ ⛅️ wrangler 4.159.0
+────────────────────
+Resource location: local 
+
+Use --remote if you want to access the remote instance.
+
+✅ No migrations to apply!

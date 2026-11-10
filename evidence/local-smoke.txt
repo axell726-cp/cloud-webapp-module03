@@ -1,0 +1,18 @@
+
+> cloud-webapp-module03@1.0.0 test:smoke
+> node scripts/smoke.mjs
+
+PASS health endpoint and D1 connection
+PASS static TaskFlow page returns HTTP 200
+PASS invalid filter rejected
+PASS cross-origin mutation rejected
+PASS blank title rejected
+PASS oversized request body rejected
+PASS create task
+PASS read pending task
+PASS mark task completed
+PASS completed filter
+PASS task statistics
+PASS delete test task
+PASS missing task returns HTTP 404
+SMOKE_OK base=http://127.0.0.1:8787

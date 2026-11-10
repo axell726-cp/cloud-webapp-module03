@@ -1,0 +1,10 @@
+PASS public HTTPS health and D1
+PASS public HTML HTTP 200
+PASS create through public REST API
+PASS read persisted pending task
+PASS update completion through public REST API
+PASS completed filter and persistence
+PASS public statistics endpoint
+PASS delete through public REST API
+PASS deletion persisted across subsequent request
+PUBLIC_SMOKE_OK {"title":"TaskFlow public smoke 1794296847476","id":"48d2a404-3ca5-47f1-ae7e-8b91dcfbee0e","database":"connected","stats":{"total":1,"pending":0,"completed":1}}

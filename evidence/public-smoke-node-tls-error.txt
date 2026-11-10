@@ -1,0 +1,22 @@
+
+> cloud-webapp-module03@1.0.0 test:smoke
+> node scripts/smoke.mjs
+
+node:internal/deps/undici/undici:14976
+      Error.captureStackTrace(err);
+            ^
+
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:14976:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async request (file:///C:/Users/matia/Documents/Projects/INTERSHIP/M%C3%B3dulo3/cloud-webapp-module03/scripts/smoke.mjs:5:20)
+    at async file:///C:/Users/matia/Documents/Projects/INTERSHIP/M%C3%B3dulo3/cloud-webapp-module03/scripts/smoke.mjs:10:16 {
+  [cause]: [Error: 383C0000:error:0A000410:SSL routines:ssl3_read_bytes:ssl/tls alert handshake failure:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:918:SSL alert number 40
+  ] {
+    library: 'SSL routines',
+    reason: 'ssl/tls alert handshake failure',
+    code: 'ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE'
+  }
+}
+
+Node.js v22.22.2

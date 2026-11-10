@@ -1,0 +1,22 @@
+
+ ⛅️ wrangler 4.159.0
+────────────────────
+Resource location: remote 
+
+Migrations to be applied:
+┌───────────────────────┐
+│ name                  │
+├───────────────────────┤
+│ 0001_create_tasks.sql │
+└───────────────────────┘
+? About to apply 1 migration(s)
+Your database may not be available to serve requests during the migration, continue?
+🤖 Using fallback value in non-interactive context: yes
+🌀 Executing on remote database taskflow-module03 (1eb88b31-84ec-44a5-8f7f-dc8b92e4e66b):
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+🚣 Executed 3 commands in 0.39ms
+┌───────────────────────┬────────┐
+│ name                  │ status │
+├───────────────────────┼────────┤
+│ 0001_create_tasks.sql │ ✅     │
+└───────────────────────┴────────┘

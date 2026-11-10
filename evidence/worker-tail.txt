@@ -1,0 +1,11 @@
+# Sanitized Cloudflare Worker tail
+Captured events: 6
+Fields retained: method, normalized route, HTTP status, duration.
+Client IPs, location, request headers, trace fingerprints, and host metadata removed.
+
+{"method":"GET","route":"/app.js","status":200,"durationMs":3}
+{"method":"GET","route":"/","status":200,"durationMs":2}
+{"method":"GET","route":"/styles.css","status":200,"durationMs":2}
+{"method":"GET","route":"tasks","status":200,"durationMs":180}
+{"method":"GET","route":"/api/stats","status":200,"durationMs":186}
+{"method":"GET","route":"/favicon.svg","status":200,"durationMs":2}

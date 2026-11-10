@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "taskflow-module03",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-10",
+  "workers_dev": true,
+  "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": true },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "taskflow-module03",
+    "database_id": "1eb88b31-84ec-44a5-8f7f-dc8b92e4e66b",
+    "migrations_dir": "migrations"
+  }],
+  "observability": { "enabled": true }
+}
+
